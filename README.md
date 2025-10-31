@@ -1,4 +1,5 @@
 # HairUp - ERP para Gestão de Salão de Beleza Feminino
+<img width="1219" height="904" alt="Captura de tela 2025-10-31 144243" src="https://github.com/user-attachments/assets/456254e3-5ed9-439b-a6ea-876f8badf5e8" />
 
 **Projeto acadêmico da Fatec Mauá** integrando: Engenharia de Software, Banco de Dados (SQL Server), Programação C# / .NET e Gestão de Equipes.
 
