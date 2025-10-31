@@ -25,6 +25,7 @@ O **HairUp** é um sistema ERP desenvolvido para gerenciar todas as operações 
 - Gerenciamento de agenda com seleção de cliente, profissional e serviço.  
 - Atualização de status de agendamentos (Agendado, Concluído, Cancelado).  
 - Interface desktop em C# / Windows Forms conectada ao SQL Server.
+<img width="600" height="600" alt="Captura de tela 2025-10-31 131836" src="https://github.com/user-attachments/assets/8f265db2-64c6-4c9a-8424-02657401b372" />
 
 ---
 
