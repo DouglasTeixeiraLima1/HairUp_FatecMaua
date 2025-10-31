@@ -1,7 +1,7 @@
 # HairUp - ERP para Gestão de Salão de Beleza Feminino
-<p align="center">
+<p align="justify">
   <img src="https://github.com/user-attachments/assets/37d21134-692d-4534-8fab-e375bbfc88d5" 
-       alt="Captura de tela 2025-10-31 144243" 
+       alt="Logo do projeto "HairUp"" 
        width="600" height="600">
 </p>
 
