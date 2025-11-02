@@ -1,4 +1,5 @@
 # HairUp_FatecMaua
+<img width="600" height="600" alt="Logo" src="https://github.com/user-attachments/assets/b24563ce-e3dc-46a4-8e7f-a14748af73ca" />
 
 Projeto de integração da Fatec Mauá, curso de Informática para negócios com engenharia de software, banco de dados, linguagem de programação 1 e gestão de equipes.  
 
@@ -24,6 +25,7 @@ O HairUp é um sistema ERP desenvolvido para gerenciar todas as operações de u
 - **Profissionais**: Cadastro, especialidade e contatos.  
 - **Serviços**: Nome, duração e preço dos serviços oferecidos.  
 - **Agenda**: Registro de agendamentos com cliente, profissional, serviço, data e status.
+<img width="600" height="600" alt="Diagrama Entidade Relacionamento (DER)" src="https://github.com/user-attachments/assets/8144363e-cd4f-478d-9ba8-c4073f4a8567" />
 
 ---
 
