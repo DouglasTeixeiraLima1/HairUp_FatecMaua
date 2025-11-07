@@ -26,8 +26,8 @@ insert into CLIENTES VALUES
 CREATE TABLE PROFISSIONAIS (
 	id_profissional		int NOT NULL IDENTITY(1,1),
 	nome				varchar(100) NOT NULL,
-	celular				char(12) NOT NULL,
-	Cpf					char(11) NOT NULL,
+	celular				char(14) NOT NULL,
+	Cpf					char(14) NOT NULL,
 	Cargo				varchar(80)
 
 	CONSTRAINT PK_Profissionais PRIMARY KEY(id_profissional)
@@ -37,7 +37,7 @@ INSERT INTO PROFISSIONAIS (nome, celular, Cpf, Cargo) VALUES
 ('Vivi Siqueira', '11987654321', '12345678901', 'Cabeleireira'),
 ('Romeu Felipe', '21987654321', '23456789012', 'Manicure/Pedicure'),
 ('Celso Kamura', '31987654321', '34567890123', 'Maquiador'),
-('Marco AntÙnio de Biaggi', '41987654321', '45678901234', 'Designer de Sobrancelhas'),
+('Marco Ant√¥nio de Biaggi', '41987654321', '45678901234', 'Designer de Sobrancelhas'),
 ('Mara Roszak', '51987654321', '56789012345', 'Esteticista Facial'),
 ('Aura Friedman', '61987654321', '67890123456', 'Depiladora'),
 ('Gue Oliveira', '71987654321', '78901234567', 'Barbeiro/Cabeleireiro'),
@@ -45,7 +45,7 @@ INSERT INTO PROFISSIONAIS (nome, celular, Cpf, Cargo) VALUES
 ('Gabriel Fernandes Tavares', '91987654321', '90123456789', 'Colorista de Cabelos'),
 ('Marisa Alves Cesar', '11998765432', '01234567890', 'Recepcionista'),
 ('Juliana Cabelano', '21998765432', '11234567890', 'Massagista'),
-('Lucas Silvano', '31998765432', '21234567890', 'Assistente de Sal„o');
+('Lucas Silvano', '31998765432', '21234567890', 'Assistente de Sal√£o');
 /*--------------------------------------------------------------------------------*/
 CREATE TABLE SERVICOS (
 	 id_servico		int NOT NULL IDENTITY(1,1),
@@ -58,17 +58,17 @@ CREATE TABLE SERVICOS (
 
 
 INSERT INTO SERVICOS VALUES
-('Corte de cabelo feminino','Corte personalizado conforme o tipo de rosto, textura e estilo desejado. Inclui lavagem e finalizaÁ„o.', 80),
-('ColoraÁ„o / Tintura','AplicaÁ„o de tinta para mudar ou realÁar a cor natural dos fios. Inclui tonalizaÁ„o e secagem.', 100),
-('Mechas / Luzes / Balayage', 'TÈcnicas de clareamento parcial dos fios para criar contraste e luminosidade.', 150),
-('HidrataÁ„o / NutriÁ„o Capilar','Tratamento para repor ·gua e nutrientes dos fios, deixando o cabelo mais macio e brilhoso.', 60),
-('Escova e Prancha','Secagem modelada e alisamento tempor·rio dos fios com escova e chapinha.', 50),
-('Penteado para festas','ProduÁ„o de penteado elaborado (coque, tranÁa, semi preso etc.) para eventos especiais.', 120),
-('Manicure e Pedicure','Limpeza, corte, lixamento e esmaltaÁ„o das unhas das m„os e dos pÈs.', 59.99),
-('Design de Sobrancelhas','Modelagem e correÁ„o do formato das sobrancelhas com pinÁa, cera ou linha.', 35),
-('DepilaÁ„o Corporal (cera)','RemoÁ„o de pelos com cera quente ou fria (pernas, axilas, virilha, etc.).', 130),
-('Maquiagem Profissional','ProduÁ„o de maquiagem social ou para eventos, com produtos de alta fixaÁ„o.', 290),
-('Combo CSMP (Cabelo + Sobrancelha + Manicure + Pedicure)','Combo CSMP ñ Cuide-se da cabeÁa aos pÈs! Inclui corte e escova, design de sobrancelhas, manicure e pedicure completos. Um pacote pr·tico e econÙmico para renovar seu visual com beleza e bem-estar.', 350);
+('Corte de cabelo feminino','Corte personalizado conforme o tipo de rosto, textura e estilo desejado. Inclui lavagem e finaliza√ß√£o.', 80),
+('Colora√ß√£o / Tintura','Aplica√ß√£o de tinta para mudar ou real√ßar a cor natural dos fios. Inclui tonaliza√ß√£o e secagem.', 100),
+('Mechas / Luzes / Balayage', 'T√©cnicas de clareamento parcial dos fios para criar contraste e luminosidade.', 150),
+('Hidrata√ß√£o / Nutri√ß√£o Capilar','Tratamento para repor √°gua e nutrientes dos fios, deixando o cabelo mais macio e brilhoso.', 60),
+('Escova e Prancha','Secagem modelada e alisamento tempor√°rio dos fios com escova e chapinha.', 50),
+('Penteado para festas','Produ√ß√£o de penteado elaborado (coque, tran√ßa, semi preso etc.) para eventos especiais.', 120),
+('Manicure e Pedicure','Limpeza, corte, lixamento e esmalta√ß√£o das unhas das m√£os e dos p√©s.', 59.99),
+('Design de Sobrancelhas','Modelagem e corre√ß√£o do formato das sobrancelhas com pin√ßa, cera ou linha.', 35),
+('Depila√ß√£o Corporal (cera)','Remo√ß√£o de pelos com cera quente ou fria (pernas, axilas, virilha, etc.).', 130),
+('Maquiagem Profissional','Produ√ß√£o de maquiagem social ou para eventos, com produtos de alta fixa√ß√£o.', 290),
+('Combo CSMP (Cabelo + Sobrancelha + Manicure + Pedicure)','Combo CSMP ‚Äì Cuide-se da cabe√ßa aos p√©s! Inclui corte e escova, design de sobrancelhas, manicure e pedicure completos. Um pacote pr√°tico e econ√¥mico para renovar seu visual com beleza e bem-estar.', 350);
 
 /*--------------------------------------------------------------------------------*/
 CREATE TABLE AGENDA(
