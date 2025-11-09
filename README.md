@@ -25,7 +25,8 @@ O HairUp é um sistema ERP desenvolvido para gerenciar todas as operações de u
 - **Profissionais**: Cadastro, especialidade e contatos.  
 - **Serviços**: Nome, duração e preço dos serviços oferecidos.  
 - **Agenda**: Registro de agendamentos com cliente, profissional, serviço, data e status.
-<img width="600" height="600" alt="Diagrama Entidade Relacionamento (DER)" src="https://github.com/user-attachments/assets/8144363e-cd4f-478d-9ba8-c4073f4a8567" />
+<img width="600" height="600" alt="Diagrama Entidade Relacionamento (DER)" src="https://github.com/user-attachments/assets/8b75f483-0fe2-4f76-829c-a0d77d7564b8" />
+
 
 ---
 
