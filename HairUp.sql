@@ -1,8 +1,8 @@
 CREATE TABLE CLIENTES(
 	id_cliente		int NOT NULL IDENTITY(1,1),
 	nome			varchar(100) NOT NULL,
-	cpf				char(11) NOT NULL,
-	celular			char(12) NOT NULL,
+	cpf				char(14) NOT NULL,
+	celular			char(14) NOT NULL,
 	email			varchar(60),
 
 	CONSTRAINT PK_CLIENTES PRIMARY KEY(id_cliente)
