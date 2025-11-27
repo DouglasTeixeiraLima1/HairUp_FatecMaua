@@ -1,0 +1,14 @@
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\bin\Debug\AgendaAtendimentos.exe.config
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\bin\Debug\AgendaAtendimentos.exe
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\bin\Debug\AgendaAtendimentos.pdb
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.csproj.AssemblyReference.cache
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.AgendaAtendimento.resources
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.Properties.Resources.resources
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.csproj.GenerateResource.cache
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.csproj.CoreCompileInputs.cache
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.exe
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.pdb
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.CadastrarClientes.resources
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.GerenciarServicos.resources
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.MenuPrincipal.resources
+C:\Users\dougl\OneDrive\Desktop\HairUp_Project\AgendaAtendimentos\AgendaAtendimentos\obj\Debug\AgendaAtendimentos.GerenciarProfissionais.resources
