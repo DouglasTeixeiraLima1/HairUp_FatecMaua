@@ -1,208 +1,132 @@
-
-\# HairUp\_FatecMaua
-
-
+# HairUp_FatecMaua
 
 <p align="center">
-
-<img width="900" alt="logo" src="https://github.com/user-attachments/assets/ba7c3cca-e383-4387-8c89-73cc98a0ccd0" />
-
+  <img width="900" alt="Logo HairUp" src="https://github.com/user-attachments/assets/ba7c3cca-e383-4387-8c89-73cc98a0ccd0" />
 </p>
 
+<p align="center">
+  <strong>ERP para Gestão de Salões de Beleza Femininos</strong><br>
+  Projeto de Integração da FATEC Mauá - Curso de Informática para Negócios
+</p>
 
+---
 
-\## Projeto de Integração da Fatec Mauá
+## 📖 Sobre o Projeto
 
+O **HairUp** é um sistema ERP (**Enterprise Resource Planning**) desenvolvido como projeto acadêmico da **FATEC Mauá**, com o objetivo de auxiliar na gestão de salões de beleza femininos.
 
+A plataforma centraliza as principais operações do negócio, permitindo o gerenciamento de clientes, profissionais, serviços e agendamentos por meio de uma interface desktop intuitiva e integrada a um banco de dados SQL Server.
 
-O \*\*HairUp\*\* é um \*\*ERP (Enterprise Resource Planning)\*\* desenvolvido como projeto acadêmico da \*\*FATEC Mauá\*\* para o curso de \*\*Informática para Negócios\*\*.
+---
 
+## 🎯 Objetivos
 
+- Organizar informações de clientes e profissionais.
+- Gerenciar os serviços oferecidos pelo salão.
+- Controlar agendamentos de forma eficiente.
+- Aplicar conceitos de Engenharia de Software e Banco de Dados.
+- Desenvolver uma solução prática para um cenário real de negócios.
 
-O sistema tem como objetivo auxiliar a gestão de salões de beleza femininos, centralizando informações de clientes, profissionais, serviços e agendamentos em uma única plataforma.
+---
 
+## ✨ Funcionalidades
 
+### 👩 Clientes
+- Cadastro de clientes
+- Atualização de dados
+- Exclusão de registros
+- Consulta de informações
 
-\---
+### 💇 Profissionais
+- Cadastro de profissionais
+- Gerenciamento de especialidades
+- Atualização e exclusão de registros
 
+### ✂️ Serviços
+- Cadastro de serviços
+- Controle de duração
+- Gerenciamento de preços
 
+### 📅 Agenda
+- Agendamento de atendimentos
+- Seleção de cliente, profissional e serviço
+- Controle de data e horário
+- Consulta e atualização de agendamentos
 
-\# HairUp - ERP para Gestão de Salão de Beleza Feminino
+### 🔄 Operações do Sistema
+- CRUD completo (Create, Read, Update e Delete)
+- Integração com SQL Server
+- Interface gráfica Windows Forms
 
+---
 
+## 🗄️ Modelagem do Banco de Dados
 
-\## Sobre o Projeto
+### Diagrama Entidade-Relacionamento (DER)
 
+<p align="center">
+  <img width="900" alt="DER HairUp" src="https://github.com/user-attachments/assets/051613f9-3139-4de4-8084-b967c3c2c8d7" />
+</p>
 
+---
 
-O HairUp é um sistema ERP desenvolvido para gerenciar as principais operações de um salão de beleza feminino, proporcionando organização, controle e praticidade no dia a dia do negócio.
+## 🛠️ Tecnologias Utilizadas
 
+| Tecnologia | Finalidade |
+|------------|------------|
+| C# | Desenvolvimento da aplicação |
+| .NET Framework | Plataforma da aplicação |
+| Windows Forms | Interface gráfica |
+| SQL Server Express | Banco de dados |
+| Git | Controle de versão |
+| GitHub | Hospedagem do repositório |
 
+---
 
-O sistema permite o gerenciamento completo de clientes, profissionais, serviços e agenda de atendimentos através de uma interface desktop desenvolvida em C# integrada ao SQL Server.
-
-
-
-\---
-
-
-
-\## Tabelas Principais
-
-
-
-\### Clientes
-
-
-
-Cadastro e gerenciamento de clientes, incluindo informações de contato.
-
-
-
-\### Profissionais
-
-
-
-Cadastro de profissionais, especialidades e dados de contato.
-
-
-
-\### Serviços
-
-
-
-Registro dos serviços oferecidos pelo salão, incluindo duração e preço.
-
-
-
-\### Agenda
-
-
-
-Controle de agendamentos relacionando cliente, profissional, serviço, data e horário.
-
-
-
-\---
-
-
-
-\## Diagrama Entidade-Relacionamento (DER)
-
-<img width="900" alt="DER" src="https://github.com/user-attachments/assets/051613f9-3139-4de4-8084-b967c3c2c8d7" />
-
-
-> Inserir imagem do DER nesta seção.
-
-
-
-\---
-
-
-
-\## Funcionalidades
-
-
-
-\* Cadastro de clientes
-
-\* Cadastro de profissionais
-
-\* Cadastro de serviços
-
-\* Agendamento de atendimentos
-
-\* Atualização de registros
-
-\* Exclusão de registros
-
-\* Visualização de dados
-
-\* CRUD completo para todas as entidades
-
-\* Integração com banco de dados SQL Server
-
-
-
-\---
-
-
-
-\## Tecnologias Utilizadas
-
-
-
-\* C#
-
-\* .NET Framework (Windows Forms)
-
-\* SQL Server Express
-
-\* Git
-
-\* GitHub
-
-
-
-\---
-
-
-
-\## Estrutura do Repositório
-
-
+## 📂 Estrutura do Repositório
 
 ```text
-
-HairUp\_FatecMaua/
-
+HairUp_FatecMaua/
 │
-
-├── HairUp/              # Código-fonte do sistema
-
-├── HairUp.sql           # Script do banco de dados
-
-├── README.md            # Documentação do projeto
-
-└── .gitignore           # Arquivos ignorados pelo Git
-
+├── HairUp/           # Código-fonte da aplicação
+├── HairUp.sql        # Script de criação do banco de dados
+├── README.md         # Documentação do projeto
+└── .gitignore        # Arquivos ignorados pelo Git
 ```
 
+---
 
+## 🎓 Contexto Acadêmico
 
-\---
+Este projeto foi desenvolvido como atividade integradora da **FATEC Mauá**, aplicando conhecimentos das disciplinas de:
 
+- Engenharia de Software
+- Banco de Dados
+- Programação Orientada a Objetos
+- Desenvolvimento Desktop
+- Modelagem de Dados
+- Controle de Versão com Git e GitHub
 
+---
 
-\## Objetivo Acadêmico
+## 🚀 Possíveis Evoluções Futuras
 
+- Controle financeiro do salão
+- Relatórios gerenciais
+- Controle de estoque de produtos
+- Sistema de autenticação de usuários
+- Dashboard com indicadores de desempenho
+- Versão web da aplicação
 
+---
 
-Este projeto foi desenvolvido como atividade de integração da FATEC Mauá, aplicando conceitos de:
+## 👥 Equipe
 
+Projeto desenvolvido pelos alunos do curso de **Informática para Negócios** da **FATEC Mauá**.
 
+---
 
-\* Engenharia de Software
-
-\* Banco de Dados
-
-\* Programação Orientada a Objetos
-
-\* Desenvolvimento Desktop
-
-\* Controle de Versão com Git e GitHub
-
-
-
-\---
-
-
-
-\## Equipe
-
-
-
-Projeto desenvolvido pelos alunos do curso de \*\*Informática para Negócios – FATEC Mauá\*\*.
-
-
-
+<p align="center">
+  <strong>HairUp © 2026</strong><br>
+  Projeto Acadêmico - FATEC Mauá
+</p>
