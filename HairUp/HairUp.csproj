@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA12D83F-8074-4641-A40D-4C910DE8C89C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HairUp</RootNamespace>
+    <AssemblyName>HairUp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtualizarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarAgenda.Designer.cs">
+      <DependentUpon>AtualizarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarClientes.Designer.cs">
+      <DependentUpon>AtualizarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarProfissionais.Designer.cs">
+      <DependentUpon>AtualizarProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarServicos.Designer.cs">
+      <DependentUpon>AtualizarServicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarAgenda.Designer.cs">
+      <DependentUpon>CadastrarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarProfissional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarProfissional.Designer.cs">
+      <DependentUpon>CadastrarProfissional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarServicos.Designer.cs">
+      <DependentUpon>CadastrarServicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletarAgenda.Designer.cs">
+      <DependentUpon>DeletarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletarProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletarProfissionais.Designer.cs">
+      <DependentUpon>DeletarProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletarServiços.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletarServiços.Designer.cs">
+      <DependentUpon>DeletarServiços.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirClientes.Designer.cs">
+      <DependentUpon>ExcluirClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HairUpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HairUpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HairUpDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HairUpDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HairUpDataSet2agenda.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HairUpDataSet2agenda.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HairUpDataSet2servicos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HairUpDataSet2servicos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisualizacaoClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisualizacaoClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarAgenda.Designer.cs">
+      <DependentUpon>VisualizarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarClientes.Designer.cs">
+      <DependentUpon>VisualizarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarProfissionais.Designer.cs">
+      <DependentUpon>VisualizarProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarServiços.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarServiços.Designer.cs">
+      <DependentUpon>VisualizarServiços.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AtualizarAgenda.resx">
+      <DependentUpon>AtualizarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtualizarClientes.resx">
+      <DependentUpon>AtualizarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtualizarProfissionais.resx">
+      <DependentUpon>AtualizarProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtualizarServicos.resx">
+      <DependentUpon>AtualizarServicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarAgenda.resx">
+      <DependentUpon>CadastrarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarProfissional.resx">
+      <DependentUpon>CadastrarProfissional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarServicos.resx">
+      <DependentUpon>CadastrarServicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletarAgenda.resx">
+      <DependentUpon>DeletarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletarProfissionais.resx">
+      <DependentUpon>DeletarProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletarServiços.resx">
+      <DependentUpon>DeletarServiços.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirClientes.resx">
+      <DependentUpon>ExcluirClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VisualizarAgenda.resx">
+      <DependentUpon>VisualizarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizarClientes.resx">
+      <DependentUpon>VisualizarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizarProfissionais.resx">
+      <DependentUpon>VisualizarProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizarServiços.resx">
+      <DependentUpon>VisualizarServiços.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HairUpDataSet.xsc">
+      <DependentUpon>HairUpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HairUpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HairUpDataSet.xss">
+      <DependentUpon>HairUpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet1.xsc">
+      <DependentUpon>HairUpDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HairUpDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HairUpDataSet1.xss">
+      <DependentUpon>HairUpDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet2agenda.xsc">
+      <DependentUpon>HairUpDataSet2agenda.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet2agenda.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HairUpDataSet2agenda.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HairUpDataSet2agenda.xss">
+      <DependentUpon>HairUpDataSet2agenda.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet2servicos.xsc">
+      <DependentUpon>HairUpDataSet2servicos.xsd</DependentUpon>
+    </None>
+    <None Include="HairUpDataSet2servicos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HairUpDataSet2servicos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HairUpDataSet2servicos.xss">
+      <DependentUpon>HairUpDataSet2servicos.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="VisualizacaoClientes.xsc">
+      <DependentUpon>VisualizacaoClientes.xsd</DependentUpon>
+    </None>
+    <None Include="VisualizacaoClientes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VisualizacaoClientes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VisualizacaoClientes.xss">
+      <DependentUpon>VisualizacaoClientes.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastrar_clientes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastrar_profissional.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
