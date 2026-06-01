@@ -5,7 +5,7 @@
 
 <p align="center">
 
-<img width="200" alt="logo" src="https://github.com/user-attachments/assets/ba7c3cca-e383-4387-8c89-73cc98a0ccd0" />
+<img width="900" alt="logo" src="https://github.com/user-attachments/assets/ba7c3cca-e383-4387-8c89-73cc98a0ccd0" />
 
 </p>
 
@@ -89,7 +89,7 @@ Controle de agendamentos relacionando cliente, profissional, serviço, data e ho
 
 \## Diagrama Entidade-Relacionamento (DER)
 
-<img width="200" alt="DER" src="https://github.com/user-attachments/assets/051613f9-3139-4de4-8084-b967c3c2c8d7" />
+<img width="900" alt="DER" src="https://github.com/user-attachments/assets/051613f9-3139-4de4-8084-b967c3c2c8d7" />
 
 
 > Inserir imagem do DER nesta seção.
